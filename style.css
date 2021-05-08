@@ -1,0 +1,122 @@
+@charset "UTF-8";
+/* 共通部分
+---------------------*/
+html{
+    font-size: 100%;
+    background: linear-gradient(to bottom, #0000cd, rgb(129, 138, 226));
+}
+
+body {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+h1 {
+    text-align: center;
+    color: #ffff;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+h2 {
+    text-align: center;
+    border-bottom: 1px solid #b8b4b4;
+    margin-bottom: 30px;
+}
+
+/* フォームエリア */
+.form-area,
+.incomplete-area,
+.complete-area {
+    width: 800px;
+    margin: 30px auto;
+    padding: 40px 50px;
+    border: 1px solid #dfdfdc;
+    border-radius: 5px;
+    background-color: #ffff;
+}
+
+input[type="text"] {
+    border: 1px solid #b8b4b4;
+    border-radius: 3px;
+    width: 100%;
+    padding: 10px;
+}
+input[type="date"] {
+    border: 1px solid #b8b4b4;
+    border-radius: 3px;
+    width: 100%;
+    padding: 10px;
+}
+/* ボタン */
+.btn {
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+}
+.submit-btn {
+    background-color: #ff69b4;
+    width: 100%;
+    margin-top: 20px;
+    padding: 5px 0;
+    letter-spacing: 1.5rem;
+    text-indent: 1.5rem;
+}
+.btn:hover {
+    background-color:#93d8d0;
+}
+
+.done-btn,
+.edit-btn,
+.delete-btn{
+    font-size: 1rem;
+    padding: 8px 13px ;
+    margin: 2px 1px;
+    text-decoration: none;
+}
+.done-btn {
+    background-color: #0000ff;
+}
+.incomplete-btn {
+    font-size: 1rem;
+    padding: 8px 5.5px ;
+    text-decoration: none;
+    background-color: #29cd70;
+}
+.edit-btn {
+    background-color: #ff8c00;
+}
+.delete-btn {
+    background-color: #f96262;
+}
+
+/* table */
+/* table{
+    border-spacing: 5px 4px ;
+} */
+.plan-title,
+.plan-due-date,
+.plan-completion-date{
+    text-align: left;
+}
+.plan-title{
+    width: 50%;
+}
+.plan-due-date,
+.plan-completion-date {
+    width:17%;
+}
+.done-link-area,
+.edit-link-area,
+.delete-link-area{
+    width: 8%;
+}
+/* インコンプリートエリア */
+.form-area,
+.incomplete-area,
+.complete-area {
+    width: 800px;
+    margin: 30px auto;
+    padding: 40px 50px;
+    border: 1px solid #dfdfdc;
+    border-radius: 5px;
+    background-color: #ffff;
+}
+
